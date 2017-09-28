@@ -1,0 +1,5 @@
+*.bak
+backup/*
+deb/*
+__pycache__/*
+.remote-sync.json
