@@ -4,7 +4,7 @@ mozDefrag
 WARNING : this is a first release of an Alpha version
 
 Firefox and Thunderbird are using SQLite databases, which can make these apps slower and slower after a while.
-The purpose of this app is to optimize every SQLite databases used by these apps in a simple click.
+The purpose of this app is to optimize every SQLite databases used by these apps (any users and profiles) in a simple click.
 
 Screenshot
 ----------
