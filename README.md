@@ -1,5 +1,3 @@
-![myInstallScript](https://sirenacorp.be/wp-content/uploads/2016/01/logo-1.png)
-
 mozDefrag
 =========
 
@@ -10,7 +8,7 @@ The purpose of this app is to optimize every SQLite databases used by these apps
 
 Screenshot
 ----------
-![Alt text](/screenshot.jpg?raw=true)
+![screenshot](/screenshot.jpg?raw=true)
 
 Requirements
 ------------
