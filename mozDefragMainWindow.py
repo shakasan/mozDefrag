@@ -20,7 +20,7 @@ class Ui_MainWindow(object):
         self.logo_header = QtWidgets.QLabel(self.centralwidget)
         self.logo_header.setGeometry(QtCore.QRect(0, 0, 400, 115))
         self.logo_header.setText("")
-        self.logo_header.setPixmap(QtGui.QPixmap("pic/logo_header.jpg"))
+        self.logo_header.setPixmap(QtGui.QPixmap("/opt/mozdefrag/pic/logo_header.jpg"))
         self.logo_header.setObjectName("logo_header")
         self.aboutButton = QtWidgets.QPushButton(self.centralwidget)
         self.aboutButton.setGeometry(QtCore.QRect(10, 330, 112, 31))

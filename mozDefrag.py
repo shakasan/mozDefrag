@@ -19,7 +19,7 @@ from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
 __appVer__ = "0.1 alpha"
-__currentDir__ = os.path.dirname(os.path.abspath(__file__))
+__appDir__ = "/opt/mozdefrag/"
 
 
 class Ui_mozDefragAboutWindow(QtWidgets.QMainWindow,  # --- About -------------
@@ -67,11 +67,8 @@ class Ui_mozDefragMainWindow(QtWidgets.QMainWindow,  # --- Main ---------------
 
     def main(self):
         self.show()
-        self.logo_header.setPixmap(QtGui.QPixmap(__currentDir__
-                                                 + os.path.sep + "pic"
-                                                 + os.path.sep + "logo_header.jpg"))
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(__currentDir__
+        icon.addPixmap(QtGui.QPixmap(__appDir__
                                      + os.path.sep + "pic"
                                      + os.path.sep + "icon.svg"),
                                      QtGui.QIcon.Normal,

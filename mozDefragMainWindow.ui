@@ -36,7 +36,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>pic/logo_header.jpg</pixmap>
+     <pixmap>/opt/mozdefrag/pic/logo_header.jpg</pixmap>
     </property>
    </widget>
    <widget class="QPushButton" name="aboutButton">
