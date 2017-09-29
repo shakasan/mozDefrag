@@ -7,10 +7,7 @@ Author : Francois B (Makoto)
 Licence : GPL3
 """
 
-import os
 import subprocess
-
-currentDir = os.path.dirname(os.path.abspath(__file__))
 
 
 def mozDefragFirefox():  # Firefox defrag
@@ -29,7 +26,7 @@ def mozDefragThunderbird():  # Thunderbird defrag
     cmd2exec += "do sqlite3 $f 'VACUUM;';"
     cmd2exec += "done"
     cmdOutput = str(subprocess.check_output(cmd2exec,
-                                        shell=True).decode("utf-8"))
+                                            shell=True).decode("utf-8"))
     return cmdOutput
 
 
