@@ -8,9 +8,7 @@ Licence : GPL3
 """
 
 import os
-import subprocess
 import sys
-import time
 
 import mozDefragMainWindow
 import mozDefragAboutWindow
