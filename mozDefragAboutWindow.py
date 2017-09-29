@@ -16,7 +16,7 @@ class Ui_AboutWindow(object):
         self.centralwidget = QtWidgets.QWidget(AboutWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.aboutLabel = QtWidgets.QLabel(self.centralwidget)
-        self.aboutLabel.setGeometry(QtCore.QRect(0, 0, 641, 131))
+        self.aboutLabel.setGeometry(QtCore.QRect(0, 10, 621, 131))
         self.aboutLabel.setAlignment(QtCore.Qt.AlignCenter)
         self.aboutLabel.setOpenExternalLinks(True)
         self.aboutLabel.setObjectName("aboutLabel")
@@ -34,7 +34,7 @@ class Ui_AboutWindow(object):
     def retranslateUi(self, AboutWindow):
         _translate = QtCore.QCoreApplication.translate
         AboutWindow.setWindowTitle(_translate("AboutWindow", " About mozDefrag"))
-        self.aboutLabel.setText(_translate("AboutWindow", "<html><head/><body><p><span style=\" font-size:24pt; font-weight:600;\">mozDefrag</span></p><p>App written by Francois B (Makoto) under the GPLv3 licence</p><p><a href=\"http://sirenacorp.be\"><span style=\" text-decoration: underline; color:#0000ff;\">Website</span></a></p></body></html>"))
+        self.aboutLabel.setText(_translate("AboutWindow", "<html><head/><body><p><span style=\" font-size:24pt; font-weight:600;\">mozDefrag</span></p><p>App written by Francois B (Makoto) under the GPLv3 licence</p><p><a href=\"http://sirenacorp.be\"><span style=\" text-decoration: underline; color:#0000ff;\">Website</span></a> | <a href=\"https://github.com/shakasan/mozDefrag\"><span style=\" text-decoration: underline; color:#0000ff;\">Github</span></a></p></body></html>"))
         self.licencePlainTextEdit.setPlainText(_translate("AboutWindow", "                    GNU GENERAL PUBLIC LICENSE\n"
 "                       Version 3, 29 June 2007\n"
 "\n"

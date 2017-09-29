@@ -21,13 +21,13 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>0</y>
-      <width>641</width>
+      <y>10</y>
+      <width>621</width>
       <height>131</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;mozDefrag&lt;/span&gt;&lt;/p&gt;&lt;p&gt;App written by Francois B (Makoto) under the GPLv3 licence&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://sirenacorp.be&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Website&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;mozDefrag&lt;/span&gt;&lt;/p&gt;&lt;p&gt;App written by Francois B (Makoto) under the GPLv3 licence&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://sirenacorp.be&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Website&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://github.com/shakasan/mozDefrag&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Github&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
