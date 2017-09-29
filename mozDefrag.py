@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 mozDefrag 0.1
-Description : defrag Firefox/Thunderbird's sqlite databases
+Description : defrag Firefox/Thunderbird's sqlite databases for users/profiles
 Author : Francois Beckers
 Licence : GPL3
 """
