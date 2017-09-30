@@ -9,7 +9,6 @@ Licence : GPL3
 
 import os
 import sys
-
 import mozDefragMainWindow
 import mozDefragAboutWindow
 from libMozDefrag import *
@@ -68,9 +67,9 @@ class Ui_mozDefragMainWindow(QtWidgets.QMainWindow,  # --- Main ---------------
     def main(self):
         self.show()
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(__appDir__
-                                     + os.path.sep + "pic"
-                                     + os.path.sep + "icon.svg"),
+        icon.addPixmap(QtGui.QPixmap(__appDir__ +
+                                     os.path.sep + "pic" +
+                                     os.path.sep + "icon.svg"),
                                      QtGui.QIcon.Normal,
                                      QtGui.QIcon.Off)
         self.setWindowIcon(icon)
