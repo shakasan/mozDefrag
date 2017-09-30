@@ -4,3 +4,4 @@ deb/*
 __pycache__/*
 cp2opt.sh
 .remote-sync.json
+build/*
