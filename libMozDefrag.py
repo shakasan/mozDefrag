@@ -15,8 +15,8 @@ def mozDefragFirefox():  # Firefox defrag
     cmd2exec = "for f in ~/.mozilla/firefox/*/*.sqlite;"
     cmd2exec += "do sqlite3 $f 'VACUUM;';"
     cmd2exec += "done"
-    cmdOutput = subprocess.check_output(cmd2exec,
-                                        shell=True).decode("utf-8")
+    cmdOutput = str(subprocess.check_output(cmd2exec,
+                                            shell=True).decode("utf-8"))
     return cmdOutput
 
 
