@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="pictures">
+    <file>pic/logo_header.jpg</file>
+  </qresource>
+  <qresource prefix="icon">
+    <file>pic/icon.svg</file>
+  </qresource>
+</RCC>

@@ -36,7 +36,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>/opt/mozdefrag/pic/logo_header.jpg</pixmap>
+     <pixmap resource="res_pics.qrc">:/pictures/pic/logo_header.jpg</pixmap>
     </property>
    </widget>
    <widget class="QPushButton" name="aboutButton">
@@ -112,6 +112,8 @@
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="res_pics.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'mozDefragMainWindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.9
+# Created by: PyQt5 UI code generator 5.5.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -20,7 +20,7 @@ class Ui_MainWindow(object):
         self.logo_header = QtWidgets.QLabel(self.centralwidget)
         self.logo_header.setGeometry(QtCore.QRect(0, 0, 400, 115))
         self.logo_header.setText("")
-        self.logo_header.setPixmap(QtGui.QPixmap("/opt/mozdefrag/pic/logo_header.jpg"))
+        self.logo_header.setPixmap(QtGui.QPixmap(":/pictures/pic/logo_header.jpg"))
         self.logo_header.setObjectName("logo_header")
         self.aboutButton = QtWidgets.QPushButton(self.centralwidget)
         self.aboutButton.setGeometry(QtCore.QRect(10, 330, 112, 31))
@@ -37,7 +37,6 @@ class Ui_MainWindow(object):
         self.layoutWidget.setGeometry(QtCore.QRect(20, 130, 141, 71))
         self.layoutWidget.setObjectName("layoutWidget")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.layoutWidget)
-        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout.setObjectName("verticalLayout")
         self.checkBoxThunderbird = QtWidgets.QCheckBox(self.layoutWidget)
         self.checkBoxThunderbird.setObjectName("checkBoxThunderbird")
@@ -59,3 +58,4 @@ class Ui_MainWindow(object):
         self.checkBoxThunderbird.setText(_translate("MainWindow", "Thunderbird"))
         self.checkBoxFirefox.setText(_translate("MainWindow", "Firefox"))
 
+import res_pics_rc

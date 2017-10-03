@@ -4,7 +4,6 @@ mozDefrag cx_Freeze setup file
 
 from cx_Freeze import setup, Executable
 
-
 setup(
     name="mozDefrag",
     version="0.1",
