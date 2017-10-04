@@ -1,6 +1,5 @@
 deb/*
 __pycache__/*
-cp2opt.sh
 regenDesign.sh
 rebuild.sh
 .remote-sync.json
