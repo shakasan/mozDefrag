@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-mozDefrag 0.1
+mozDefrag
 Description : defrag Firefox/Thunderbird's sqlite databases for users/profiles
 Author : Francois Beckers
 Licence : GPL3

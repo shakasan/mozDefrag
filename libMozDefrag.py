@@ -2,12 +2,14 @@
 # -*- coding: utf-8 -*-
 
 """
-libMozDefrag 0.1
+libMozDefrag
 Author : Francois B (Makoto)
 Licence : GPL3
 """
 
 import subprocess
+
+__libVer__ = "0.1"
 
 
 def mozDefragFirefox():  # Firefox defrag
