@@ -68,7 +68,6 @@ class Ui_mozDefragMainWindow(QtWidgets.QMainWindow,  # --- Main ---------------
     def main(self):
         self.show()
         icon = QtGui.QIcon()
-
         icon.addPixmap(QtGui.QPixmap(":/icon/pic/icon.svg"),
                                      QtGui.QIcon.Normal,
                                      QtGui.QIcon.Off)
