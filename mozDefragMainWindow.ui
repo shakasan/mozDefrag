@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>395</width>
-    <height>376</height>
+    <height>383</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -43,7 +43,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>330</y>
+      <y>340</y>
       <width>112</width>
       <height>31</height>
      </rect>
@@ -56,7 +56,7 @@
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>330</y>
+      <y>340</y>
       <width>112</width>
       <height>31</height>
      </rect>
@@ -68,26 +68,13 @@
      <bool>false</bool>
     </property>
    </widget>
-   <widget class="QTextEdit" name="logTextEdit">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>210</y>
-      <width>371</width>
-      <height>111</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>130</y>
       <width>141</width>
-      <height>71</height>
+      <height>80</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -95,6 +82,16 @@
       <widget class="QCheckBox" name="checkBoxThunderbird">
        <property name="text">
         <string>Thunderbird</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBoxFirefoxTrunk">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>Firefox Nightly</string>
        </property>
       </widget>
      </item>
@@ -110,6 +107,25 @@
      </item>
     </layout>
    </widget>
+   <widget class="QTextEdit" name="logTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>371</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>logo_header</zorder>
+   <zorder>aboutButton</zorder>
+   <zorder>defragAllButton</zorder>
+   <zorder>logTextEdit</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>logTextEdit</zorder>
   </widget>
  </widget>
  <resources>

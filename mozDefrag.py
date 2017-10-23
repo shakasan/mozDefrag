@@ -58,6 +58,12 @@ class Ui_mozDefragMainWindow(QtWidgets.QMainWindow,  # --- Main ---------------
                 self.logTextEdit.append("> Firefox defrag done")
             else:
                 self.logTextEdit.append("> Close Firefox and try again")
+        if self.checkBoxFirefoxTrunk.isChecked():
+            if not mozFirefoxTrunkIsRunning():
+                mozDefragFirefoxTrunk()
+                self.logTextEdit.append("> Firefox Nightly defrag done")
+            else:
+                self.logTextEdit.append("> Close Firefox Nightly and try again")
         if self.checkBoxThunderbird.isChecked():
             if not mozThunderbirdIsRunning():
                 mozDefragThunderbird()
@@ -78,6 +84,11 @@ class Ui_mozDefragMainWindow(QtWidgets.QMainWindow,  # --- Main ---------------
             self.checkBoxFirefox.setChecked(True)
         else:
             self.checkBoxFirefox.setDisabled(True)
+        if mozFirefoxTrunkIsInstalled():
+            self.checkBoxFirefoxTrunk.setEnabled(True)
+            self.checkBoxFirefoxTrunk.setChecked(True)
+        else:
+            self.checkBoxFirefoxTrunk.setDisabled(True)
         if mozThunderbirdIsInstalled():
             self.checkBoxThunderbird.setEnabled(True)
             self.checkBoxThunderbird.setChecked(True)
