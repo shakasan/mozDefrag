@@ -77,7 +77,7 @@ def mozThunderbirdIsInstalled():  # check if Thunderbird is installed
 
 def mozFirefoxIsRunning():  # check if Firefox is running
 
-    cmd2exec = "ps auxw | grep -i firefox | grep -v grep | wc -l"
+    cmd2exec = "ps auxw | grep -v firefox-trunk | grep -i firefox | grep -v grep | wc -l"
     cmdOutput = int(subprocess.check_output(cmd2exec,
                                             shell=True).decode("utf-8"))
     return 1 if (cmdOutput > 0) else 0
