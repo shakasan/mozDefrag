@@ -18,7 +18,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
-__appVer__ = "0.1 alpha"
+__appVer__ = "0.1.1 alpha"
 __appDir__ = "/opt/mozdefrag/"
 
 
