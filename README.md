@@ -1,45 +1,38 @@
-mozDefrag
-=========
+# mozDefrag
 
-WARNING : this is a first release of an Alpha version
+> **WARNING** : this is a first release of an Alpha version
 
 Firefox and Thunderbird are using SQLite databases, which can make these apps slower and slower after a while.
 The purpose of this app is to optimize every SQLite databases used by these apps (any users and profiles) in a simple click.
 
-Screenshot
-----------
+## Screenshot
+
 ![screenshot](/screenshot.jpg?raw=true)
 
-Requirements
-------------
+## Requirements
 
-* Ubuntu, Linux Mint (should work on any Linux OS)
-* Python 3
-* QT 5
-* PyQT 5
-* SQLite 3
+- Ubuntu, Linux Mint (should work on any Linux OS)
+- Python 3
+- QT 5
+- PyQT 5
+- SQLite 3
 
-Installation
-------------
+## Installation
 
 ```
 todo
 ```
 
-Credits
--------
+## Credits
 
-This Apps has been written by Francois B. (Makotosan/Shakasan)
+- Author : Francois B. (Makoto)
+- Email : <francois@exoseed.be>
+- Website : <https://makotonoblog.be/>
 
-* Email : shakasan@sirenacorp.be
-* Website : https://sirenacorp.be/
+## Licence
 
-Licence
--------
+The App is licensed under the terms of the GPL-3.0
 
-The Apps is licensed under the terms of the GPLv3
+## Changelog
 
-Changelog
----------
-
-* 2017-09-29 : initial release 0.1 alpha
+- 2017-09-29 : initial release 0.1 alpha
